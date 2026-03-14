@@ -34,7 +34,7 @@ const Gallery = () => {
         <div className="min-h-screen bg-gray-100 px-4 py-8 md:px-8 rounded-2xl">
             {/* Search Bar Container */}
             <div className="mx-auto max-w-7xl mb-12 flex justify-between">
-                <h1 className="text-4xl font-extrabold text-gray-900 mb-6">Photo Explorer</h1>
+                <h1 className="text-4xl font-extrabold text-gray-900 mb-6">Photo Gallery</h1>
                 <SearchBar search={search} onSearch={handleSearch} />
             </div>
 
